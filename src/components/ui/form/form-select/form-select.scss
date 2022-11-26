@@ -1,0 +1,6 @@
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+
+.cfm-form-select {
+  @include form-field;
+}

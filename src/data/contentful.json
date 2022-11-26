@@ -1,0 +1,631 @@
+{
+  "data": {
+    "form": {
+      "nodes": [
+        {
+          "tituloPrincipal": null,
+          "descripcionFormulario": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Recuerda que los campos señalados con el signo (*) son obligatorios.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "descripcion": {
+            "descripcion": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"italic\"},{\"type\":\"bold\"}],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+          },
+          "metaTitulo": "mentoria-de-talento",
+          "tituloFormulario": "Realiza tu inscripción en dos pasos",
+          "titulosFormulario": [
+            {
+              "tituloGeneral": "Datos Personales",
+              "descripcion": null,
+              "referenciaFormulario": [
+                {
+                  "tipoCampo": "text",
+                  "listaSelect": null,
+                  "mensajeError": null,
+                  "inputPrincipal": "Fecha de registro",
+                  "nombreId": "registerDate",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "hiddenSeccion"
+                },
+                {
+                  "tipoCampo": "select",
+                  "listaSelect": [
+                    "Cédula de ciudadanía",
+                    "Cédula de extranjería",
+                    "Pasaporte",
+                    "Tarjeta de Identidad",
+                    "Permiso especial de permanencia",
+                    "Permiso de Protección Temporal"
+                  ],
+                  "mensajeError": "*Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu tipo de documento?",
+                  "nombreId": "documentType",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "number",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu número de documento?",
+                  "nombreId": "docNumber",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "text",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu nombre completo?",
+                  "nombreId": "fullName",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "radio",
+                  "listaSelect": ["Hombre", "Mujer", "No binario", "Otro"],
+                  "mensajeError": "* Pregunta Obligatoria",
+                  "inputPrincipal": "¿Cuál es tu género?",
+                  "nombreId": "gender",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "mobile",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu número de teléfono celular?",
+                  "nombreId": "mobile",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "number",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Tienes otro número fijo o celular donde te podamos contactar?",
+                  "nombreId": "phone",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "email",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu correo electrónico personal?",
+                  "nombreId": "email",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "date",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu fecha de nacimiento?",
+                  "nombreId": "birthDate",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                },
+                {
+                  "tipoCampo": "checkbox",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "Autorización tratamiento de datos personales",
+                  "nombreId": "dataProcessingAuthorization",
+                  "tituloBotonTerminos": "Autorización de tratamiento de datos.",
+                  "textoTerminos": {
+                    "json": {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Comfama cuida tu información. Haz clic aquí para autorizar el ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {
+                                "uri": "https://serviciosenlinea.comfama.com/webinicio/tratamientodatos.htm"
+                              },
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "tratamiento de datos",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "hyperlink"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " personales.\n\n",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "document"
+                    }
+                  },
+                  "obligatorio": true,
+                  "seccion": "datosPersonales"
+                }
+              ],
+              "tituloBoton": "Continuar"
+            },
+            {
+              "tituloGeneral": "Datos Mentoría",
+              "descripcion": null,
+              "referenciaFormulario": [
+                {
+                  "tipoCampo": "select",
+                  "listaSelect": [
+                    "MEDELLIN",
+                    "ABEJORRAL",
+                    "ABRIAQUI",
+                    "ALEJANDRIA",
+                    "AMAGA",
+                    "AMALFI",
+                    "ANDES",
+                    "ANGELOPOLIS",
+                    "ANGOSTURA",
+                    "ANORI",
+                    "ANZA",
+                    "APARTADO",
+                    "ARBOLETES",
+                    "ARGELIA",
+                    "ARMENIA",
+                    "BARBOSA",
+                    "BELLO",
+                    "BELMIRA",
+                    "BETANIA",
+                    "BETULIA",
+                    "BRICEÑO",
+                    "BURITICA",
+                    "CACERES",
+                    "CAICEDO",
+                    "CALDAS",
+                    "CAMPAMENTO",
+                    "CAÑASGORDAS",
+                    "CARACOLI",
+                    "CARAMANTA",
+                    "CAREPA",
+                    "CAROLINA",
+                    "CAUCASIA",
+                    "CHIGORODO",
+                    "CISNEROS",
+                    "CIUDAD BOLIVAR",
+                    "COCORNA",
+                    "CONCEPCION",
+                    "CONCORDIA",
+                    "COPACABANA",
+                    "DABEIBA",
+                    "DON MATIAS",
+                    "EBEJICO",
+                    "EL BAGRE",
+                    "EL CARMEN DE VIBORAL",
+                    "EL PEÑOL",
+                    "EL RETIRO",
+                    "EL SANTUARIO",
+                    "ENTRERRIOS",
+                    "ENVIGADO",
+                    "FREDONIA",
+                    "FRONTINO",
+                    "GIRALDO",
+                    "GIRARDOTA",
+                    "GOMEZ PLATA",
+                    "GRANADA",
+                    "GUADALUPE",
+                    "GUARNE",
+                    "GUATAPE",
+                    "HELICONIA",
+                    "HISPANIA",
+                    "ITAGUI",
+                    "ITUANGO",
+                    "JARDIN",
+                    "JERICO",
+                    "LA CEJA",
+                    "LA ESTRELLA",
+                    "LA PINTADA",
+                    "LA UNION",
+                    "LIBORINA",
+                    "MACEO",
+                    "MARINILLA",
+                    "MONTEBELLO",
+                    "MURINDO",
+                    "MUTATA",
+                    "NARIÑO",
+                    "NECHI",
+                    "NECOCLI",
+                    "OLAYA",
+                    "PEQUE",
+                    "PUEBLORRICO",
+                    "PUERTO BERRIO",
+                    "PUERTO NARE",
+                    "PUERTO TRIUNFO",
+                    "REMEDIOS",
+                    "RIONEGRO",
+                    "SABANALARGA",
+                    "SABANETA",
+                    "SALGAR",
+                    "SAN ANDRES DE CUERQUIA",
+                    "SAN CARLOS",
+                    "SAN FRANCISCO",
+                    "SAN JERONIMO",
+                    "SAN JOSE DE LA MONTAÑA",
+                    "SAN JUAN DE URABA",
+                    "SAN LUIS",
+                    "SAN PEDRO",
+                    "SAN PEDRO DE URABA",
+                    "SAN RAFAEL",
+                    "SAN ROQUE",
+                    "SAN VICENTE",
+                    "SANTA BARBARA",
+                    "SANTA ROSA DE OSOS",
+                    "SANTAFE DE ANTIOQUIA",
+                    "SANTO DOMINGO",
+                    "SEGOVIA",
+                    "SONSON",
+                    "SOPETRAN",
+                    "TAMESIS",
+                    "TARAZA",
+                    "TARSO",
+                    "TITIRIBI",
+                    "TOLEDO",
+                    "TURBO",
+                    "URAMITA",
+                    "URRAO",
+                    "VALDIVIA",
+                    "VALPARAISO",
+                    "VEGACHI",
+                    "VENECIA",
+                    "VIGIA DEL FUERTE",
+                    "YALI",
+                    "YARUMAL",
+                    "YOLOMBO",
+                    "YONDO",
+                    "ZARAGOZA",
+                    "Otro"
+                  ],
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es el municipio donde vives?",
+                  "nombreId": "city",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "radio",
+                  "listaSelect": ["SÍ", "NO"],
+                  "mensajeError": "Pregunta obligatoria",
+                  "inputPrincipal": "¿Tienes alguna discapacidad? ",
+                  "nombreId": "statusDisability",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "select",
+                  "listaSelect": [
+                    "Física",
+                    "Auditiva",
+                    "Visual",
+                    "Cognitiva o intelectual",
+                    "Psicosocial",
+                    "Sordoceguera",
+                    "Múltiple"
+                  ],
+                  "mensajeError": "Pregunta obligatoria",
+                  "inputPrincipal": "Condición de discapacidad:",
+                  "nombreId": "disability",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "radio",
+                  "listaSelect": ["SÍ", "NO"],
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Tienes algún requerimiento especial que debamos tener en cuenta durante el desarrollo del programa?",
+                  "nombreId": "specialRequirement",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "text-area",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál?",
+                  "nombreId": "specialRequirementDetail",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "select",
+                  "listaSelect": [
+                    "DISAB--Mentoría presencial – individual: Acompañamiento de 2 horas.",
+                    "DISAB--Mentoría virtual – individual: Acompañamiento de 2 horas.",
+                    "AMVA--Mentoría virtual - Grupal: Acompañamiento de 3 horas, adicional encuentro personalizado 1 hora (opcional).",
+                    "AMVA--Mentoría virtual - Grupal: Acompañamiento de 9 horas. Se lleva a cabo durante 3 días, 3 horas por día.",
+                    "AMVA--Mentoría Presencial - Individual: Acompañamiento de 2 horas.",
+                    "REG--Mentoría grupal: 3 encuentros grupales de 3 horas cada uno.",
+                    "REG--Mentoría individual: 1 encuentro individual de 1 hora."
+                  ],
+                  "mensajeError": "Pregunta Obligatoria",
+                  "inputPrincipal": "Selecciona la modalidad de mentoría según tu disponibilidad:",
+                  "nombreId": "modMentory",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "radio",
+                  "listaSelect": [
+                    "Empleo (Quiero conectarme con posibilidades de empleo según mi experiencia o interés).",
+                    "Emprendimiento (Tengo una idea de negocio y quiero trabajar como independiente)."
+                  ],
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "Encontremos juntos soluciones que te permitan continuar el camino",
+                  "nombreId": "InterestSolution",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": {
+                    "json": {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Elige la opción que más se conecte contigo:",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "document"
+                    }
+                  },
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "select",
+                  "listaSelect": [
+                    "Educación primaria (1-5).",
+                    "Educación secundaria (6-9).",
+                    "Educación media (10-13).",
+                    "Técnico(a).",
+                    "Tecnólogo(a).",
+                    "Universitario(a).",
+                    "Especialización.",
+                    "Maestría.",
+                    "Doctorado.",
+                    "Sin grado de escolaridad."
+                  ],
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es tu nivel educativo?",
+                  "nombreId": "studiesLevel",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "radio",
+                  "listaSelect": ["SÍ", "NO"],
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Actualmente cuentas con empleo?",
+                  "nombreId": "statusJob",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": true,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "date",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "¿Cuál es la fecha en la que te quedaste sin empleo?",
+                  "nombreId": "retiredDate",
+                  "tituloBotonTerminos": null,
+                  "textoTerminos": null,
+                  "obligatorio": false,
+                  "seccion": "datosMentoria"
+                },
+                {
+                  "tipoCampo": "checkbox",
+                  "listaSelect": null,
+                  "mensajeError": "* Pregunta obligatoria",
+                  "inputPrincipal": "Declaras bajo gravedad de juramento.",
+                  "nombreId": "validateTerm",
+                  "tituloBotonTerminos": "Actualmente te encuentras sin empleo y te comprometes a informar de manera inmediata a Comfama en caso de que esta condición cambie.",
+                  "textoTerminos": {
+                    "json": {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Actualmente te encuentras sin empleo y te comprometes a informar de manera inmediata a Comfama en caso de que esta condición cambie.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "document"
+                    }
+                  },
+                  "obligatorio": false,
+                  "seccion": "datosMentoria"
+                }
+              ],
+              "tituloBoton": "Finalizar"
+            }
+          ]
+        }
+      ]
+    },
+    "modalSuccess": {
+      "nodes": [
+        {
+          "tituloPrincipal": "¡Gracias por diligenciar nuestro formulario!",
+          "descripcionFormulario": {
+            "json": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Estamos analizando tus datos y la información que nos diste. En el transcurso de 3 a 5 días hábiles, nos comunicaremos contigo para iniciar el proceso de mentoría.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Recuerda que para poder participar en el programa debes tener registrada y actualizada tu hoja de vida en la plataforma del ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://personas.serviciodeempleo.gov.co/login.aspx"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Servicio Público de Empleo",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " y elegir a Comfama como tu prestador.\n",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "descripcion": null,
+          "metaTitulo": null,
+          "imagenFormulario": {
+            "file": {
+              "url": "//images.ctfassets.net/gkhyeghj07ak/37WawyS2wWABCnbYcqPZxn/7426828d114a1be35ae19e6e85edbfe4/check.svg"
+            }
+          },
+          "tituloBoton": "CONTINUAR",
+          "redireccionBoton": "https://www.comfama.com/trabajo-con-proposito/empleo/aprendizaje-y-desarrollo/",
+          "contentful_id": "Qlvlhh0iEkcjRtKdkGMlv"
+        }
+      ]
+    },
+    "modalUnsuccess": {
+      "nodes": [
+        {
+          "tituloPrincipal": "Lo sentimos, no se pudo completar tu registro",
+          "descripcionFormulario": {
+            "json": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Ya hay una persona registrada con estos datos, verifica la información.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "descripcion": null,
+          "metaTitulo": null,
+          "imagenFormulario": {
+            "file": {
+              "url": "//images.ctfassets.net/gkhyeghj07ak/6m03XnZihvm3nFFlJzHZDF/0e4c890b4ca48b89a1ba9b36f2dfbfd3/check-error.png"
+            }
+          },
+          "tituloBoton": "FINALIZAR",
+          "redireccionBoton": "/empresas/comunidades/",
+          "contentful_id": "4SNDHj0MdGFlcWAQpTNUr2"
+        }
+      ]
+    }
+  },
+  "extensions": {}
+}

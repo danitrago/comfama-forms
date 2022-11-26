@@ -1,0 +1,10 @@
+@import "../../styles/vars.scss";
+
+.cfm-button {
+  background-color: $primary;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
