@@ -15,6 +15,7 @@ const Input = (props: any) => {
     <div key={field.name}>
       {field.label && <Form.Label>{field.label}</Form.Label>}
       <Form.Input
+      className={field.className}
         id={field.name}
         type={field.type}
         name={field.name}

@@ -13,7 +13,8 @@ export const contentfulFormAdapter = (data: any) => {
         label: option,
         value: i + field.nombreId
       })),
-      help: ""
+      help: "",
+      className: field.className
     };
     process.push(dummie);
   });

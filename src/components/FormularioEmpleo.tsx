@@ -1,4 +1,5 @@
 import { FormEvent, useEffect, useRef, useState } from "react";
+import { contentfulFormAdapter } from "../adapters/contentfulForm.adapter";
 import FormGenerator from "../components/ui/form/form-generator/FormGenerator";
 import GridLayout from "../components/ui/grid-layout/GridLayout";
 import "../components/ui/styles/general.scss";
@@ -88,9 +89,15 @@ const FormularioEmpleo = (props: any) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <GridLayout columns="1fr 1fr 1fr" gap="2rem 1rem">
-        <FormGenerator fields={fields} setData={setFormData} />
-      </GridLayout>
+      {
+        props.fields.data.titulosFormularios.map((seccion:any) => {
+          return <>
+          <h1>{seccion.tituloGeneral}</h1>
+          <FormGenerator fields={contentfulFormAdapter(seccion.fields)} setData={()=>{}} />
+          </>
+        } )
+      }
+  
       <div style={{ marginBottom: "3rem" }}></div>
       <input type="submit" />
       <div style={{ marginBottom: "3rem" }}></div>

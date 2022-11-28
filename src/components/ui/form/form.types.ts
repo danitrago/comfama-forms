@@ -5,6 +5,7 @@ type InputType = {
   required?: boolean;
   help?: string;
   placeholder?: string;
+  className?:string;
 };
 
 type SelectType = {
@@ -13,6 +14,7 @@ type SelectType = {
   name?: string;
   required?: boolean;
   help?: string;
+  className?:string;
   options?: {
     label: string;
     value: any;
